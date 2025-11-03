@@ -37,7 +37,7 @@ class EvalQWen3VL:
             video_path,
             segment_seconds=getattr(self.args, "segment_seconds", 300),
             nframes_per_segment=getattr(self.args, "nframes_per_segment", 900),
-            device=torch.device(self.device),
+            device=torch.device("cpu"),
             max_pixels=getattr(self.args, "max_pixels", None)
         )
 
