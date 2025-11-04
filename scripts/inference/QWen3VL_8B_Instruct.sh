@@ -3,7 +3,7 @@ set -e
 export CUDA_VISIBLE_DEVICES=6
 MODEL_NAME="QWen3VL"
 MODEL_PATH="/data/fengbailong-20250924/a4sben/models/Qwen3-VL-8B-Instruct"
-VIDEO_DIR="/data/fengbailong-20250924/a4sben/EgoLife/A4_LUCIA/1h"
+VIDEO_DIR="/data/fengbailong-20250924/AI4Service_Benchmark/data/EgoLife/A1_JAKE/First_1h"
 RESULT_DIR="../../results"
 
 echo "QWen3VL Inference"
