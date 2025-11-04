@@ -11,6 +11,6 @@ snapshot_download(
     repo_id="lmms-lab/EgoLife",
     repo_type="dataset",
     local_dir=save_dir,
-    allow_patterns=["A4_LUCIA/DAY1/*"]
+    allow_patterns=["A1_JAKE/DAY1/*"]
 )
 

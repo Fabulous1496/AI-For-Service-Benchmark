@@ -1,0 +1,60 @@
+{
+  "event": "setup",
+  "video_time_str": "11:10:00:00",
+  "services": ["Ensure all necessary tools and materials are within reach.", "Check the lighting setup for optimal visibility."]
+}
+{
+  "event": "setup",
+  "video_time_str": "11:15:00:00",
+  "services": ["Ensure all necessary tools and materials are within reach.", "Check that the workspace is well-lit and organized."]
+}
+{
+  "event": "setup",
+  "video_time_str": "11:20:00:00",
+  "services": ["Ensure all necessary tools and materials are within reach for efficient setup.", "Use a checklist to verify that all components are accounted for before beginning."]
+}
+{
+  "event": "meeting",
+  "video_time_str": "11:25:00:00",
+  "services": ["Use a shared digital whiteboard for real-time collaboration", "Record the meeting for future reference"]
+}
+{
+  "event": "meeting",
+  "video_time_str": "11:30:00:00",
+  "services": ["Use a whiteboard app to save and share the meeting notes.", "Set up a virtual meeting link for remote participants."]
+}
+{
+  "event": "arts & craftwork",
+  "video_time_str": "11:35:00:00",
+  "services": ["Floral arrangement tips", "Craft supplies store nearby"]
+}
+{
+  "event": "arts & craftwork",
+  "video_time_str": "11:40:00:00",
+  "services": ["Floral arrangement tips", "Craft supplies store nearby"]
+}
+{
+  "event": "arts & craftwork",
+  "video_time_str": "11:45:00:00",
+  "services": ["Floral arrangement tips", "Craft supplies store nearby"]
+}
+{
+  "event": "arts & craftwork",
+  "video_time_str": "11:50:00:00",
+  "services": ["Floral design tips", "Flower arranging tutorial"]
+}
+{
+  "event": "arts & craftwork",
+  "video_time_str": "11:55:00:00",
+  "services": ["Floral design tips", "Flower arranging tutorial"]
+}
+{
+  "event": "arts & craftwork",
+  "video_time_str": "12:00:00:00",
+  "services": ["Floral arrangement tips", "Whiteboard planning tools"]
+}
+{
+  "event": "social",
+  "video_time_str": "12:05:00:00",
+  "services": ["Use a smart speaker to play background music for a more lively atmosphere.", "Set up a group chat to coordinate activities and share updates."]
+}

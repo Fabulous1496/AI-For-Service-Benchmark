@@ -35,8 +35,8 @@ class EvalQWen3VL:
     def inference(self, video_path: str, prompt: str) -> List[str]:
         segments = sample_video_segments_torchcodec(
             video_path,
-            segment_seconds=getattr(self.args, "segment_seconds", 300),
-            nframes_per_segment=getattr(self.args, "nframes_per_segment", 900),
+            segment_seconds=getattr(self.args, "segment_seconds", 600),
+            nframes_per_segment=getattr(self.args, "nframes_per_segment", 1500),
             device=torch.device("cpu"),
             max_pixels=getattr(self.args, "max_pixels", None)
         )

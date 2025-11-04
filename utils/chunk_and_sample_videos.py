@@ -24,8 +24,8 @@ def _resize_thwc_np(arr_thwc: np.ndarray, max_pixels: int) -> np.ndarray:
 
 def sample_video_segments_torchcodec(
     video_path: str,
-    segment_seconds: int = 300,
-    nframes_per_segment: int = 900,
+    segment_seconds: int = 600,
+    nframes_per_segment: int = 1500,
     device: torch.device = torch.device("cpu"),
     max_pixels: int = 360*480
 ) -> list:

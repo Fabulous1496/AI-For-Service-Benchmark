@@ -1,0 +1,62 @@
+event: arts & craftwork
+video_time_str: 11:10:00
+services: [Do] Organize craft supplies on the table for easy access during the session
+
+event: meeting
+video_time_str: 11:13:00
+services: [Find] Summarize key discussion points from the meeting for follow-up action items
+
+event: setup
+video_time_str: 11:15:00
+services: [Do] Adjust lighting equipment to ensure optimal illumination for the workspace
+
+event: arts & craftwork
+video_time_str: 11:20:00
+services: [Plan] Create a timeline for completing the craft project with scheduled breaks
+
+event: housekeeping
+video_time_str: 11:30:00
+services: [Do] Clean up the workspace by tidying up tools and materials
+
+event: meeting
+video_time_str: 11:35:00
+services: [Find] Generate a shared document with meeting notes and action items
+
+event: setup
+video_time_str: 11:40:00
+services: [Do] Configure computer monitors for multi-screen collaboration
+
+event: arts & craft
+event: arts & craftwork
+video_time_str: 11:15:00
+services: [Do] Assist with organizing craft supplies on the table for better workflow
+event: arts & craftwork
+video_time_str: 11:20:00
+services: [Do] Assist with organizing craft supplies for group activity
+event: meeting
+video_time_str: 11:25:00
+services: [Find] Summarize key discussion points from the whiteboard presentation
+event: meeting
+video_time_str: 11:30:00
+services: [Find] Summarize key discussion points from the whiteboard presentation
+event: arts & craftwork
+video_time_str: 11:35:00
+services: [Do] Arrange craft supplies on the table for efficient workflow
+event: arts & craftwork
+video_time_str: 11:40:00
+services: [Find] Look up tutorials for arranging floral bouquets for a table setting
+event: arts & craftwork
+video_time_str: 11:45:00
+services: [Find] Suggest creative ways to use heart-shaped paper cutouts in a group activity
+event: meeting
+video_time_str: 11:50:00
+services: [Find] Summarize key discussion points from the meeting notes
+event: arts & craftwork
+video_time_str: 11:55:00
+services: [Do] Assist in arranging floral decorations on the table for aesthetic appeal
+event: meeting
+video_time_str: 12:00:00
+services: [Find] Summarize key discussion points from the whiteboard presentation
+event: meeting
+video_time_str: 12:05:00
+services: [Find] Summarize key discussion points from the meeting notes on the whiteboard

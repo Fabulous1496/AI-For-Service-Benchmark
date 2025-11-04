@@ -1,22 +1,37 @@
 PROMPT_EXAMPLE = """
-You are an AI assistant tasked with analyzing and inferring based on a first-person perspective video recorded through AI glasses. 
+**CORE INSTRUCTIONS:**
+1. **Monitor Continuously**: Track the video stream for meaningful event transitions
+2. **Output Only on Change**: Generate output ONLY when a new main event type begins
+3. **Strict Event Typing**: Event types must be from: [social, housekeeping, cooking, shopping, dining, party, arts & craftwork, leisure, games, music & dance, outing, setup, meeting, commuting]
 
-Instructions:
-1. Monitor the video for event changes.
-2. Only output when a new event occurs.
-3. For each detected event change, provide:
-   - event: the new event type (one of ["social", "housekeeping", "cooking", "shopping", "dining", "party", "arts & craftwork", "leisure", "games", "music & dance", "outing", "setup", "meeting", "commuting"])
-   - video_time_str: the timestamp in the video
-   - services: at least one suggestion to assist the user in this event
+**OUTPUT REQUIREMENTS:**
+For each detected event change, output EXACTLY in this format:
+event: [event_type]
+video_time_str: [HH:MM:SS]
+services: [Service_Category] [Specific service description that aligns with AI agent capabilities]
 
-Output format (JSON):
-{{
-  "event": "<new_event_type>",
-  "video_time_str": "<timestamp_read_from_video>",
-  "services": ["<service_suggestion1>", "<service_suggestion2>", ...]
-}}
+**SERVICE CATEGORIES & EXAMPLES:**
+- **[Find]**: Information retrieval, explanation, summarization
+  *Example: "Find recipe for chocolate cake with available ingredients"*
+- **[Do]**: Task execution, command implementation  
+  *Example: "Set timer for 25 minutes for baking"*
+- **[Plan]**: Complex decision support, itinerary planning
+  *Example: "Plan weekly meal prep schedule considering dietary restrictions"*
 
-Output ONLY when event changes occur.
+**CRITICAL CONSTRAINTS:**
+- Time format MUST be "HH:MM:SS" (e.g., "11:10:00")
+- Services must be realistic for current AI agents
+- Each event change gets exactly ONE most relevant service suggestion
+- Maintain temporal continuity - don't output the same event type consecutively
+
+**EXAMPLE OUTPUTS:**
+event: cooking
+video_time_str: 11:10:00
+services: [Find] Look up step-by-step instructions for proper knife techniques
+
+event: shopping
+video_time_str: 11:45:30
+services: [Plan] Create optimized shopping route through the store based on shopping list
+
+**REMINDER:** Output immediately when event changes, keep responses concise and machine-parsable for benchmark evaluation.
 """
-
-
